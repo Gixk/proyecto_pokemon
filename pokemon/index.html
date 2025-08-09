@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <!-- Tipos de letra -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+
+
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-fluid row gap-5 p-4 justify-content-center"
+        style="background-color: crimson; height: 100vh;">
+
+        <!-- Columna izquierda: Lista de Pokémon -->
+        <div class="col-3 p-2 rounded-3" id="pokemon-list-container">
+
+            <div class="input-group mb-3">
+                <input type="text" class="form-control border-0" placeholder="Search Pokemon..." id="search-input">
+                <button class="btn btn-outline bg-danger-subtle border-0" type="button" id="search-button">
+                    <i class="bi bi-search"></i>
+                </button>
+            </div>
+
+            <!-- Lista de pokemones -->
+            <div class="list-group" id="pokemon-list" style="max-height: 86vh;">
+                <ul class="list-group list-group-flush overflow-auto h-100" id="ul-list">
+                </ul>
+            </div>
+
+        </div>
+
+
+        <!-- Columna derecha: Detalles del Pokémon -->
+        <div class="col-8 p-2 bg-light" id="pokemon-details">
+
+            <div class="text-center" id="loading-spinner">
+                <div class="spinner-border text-primary" role="status">
+                    <span class="visually-hidden"></span>
+                </div>
+            </div>
+
+
+            <div id="pokemon-content" class="d-none p-3">
+                <!-- nombre -->
+                <div class=" mb-2">
+                    <h1 id="pokemon-name" class="display-4 text-capitalize"></h1>
+                </div>
+
+                <!-- Detalles -->
+                <div id="pokemon-info" class="container d-flex gap-5">
+                    <!-- Imagen y tipo de pokemon -->
+                    <div class="col-6 text-center">
+                        <img id="pokemon-image" class="img-fluid" style="max-height: 250px;">
+                        <div class="d-flex justify-content-center gap-2" id="pokemon-types"></div>
+                    </div>
+
+                    <!-- Detalles -->
+                    <div id="stats" class="flex-grow-1 p-2">
+                        <h3>Information</h3>
+                        <div>
+                            <p><strong>Weight:</strong> <span id="pokemon-weight"></span> kg.</p>
+                            <p><strong>Height:</strong> <span id="pokemon-height"></span> m.</p>
+                            <p><strong>Species:</strong> <span id="pokemon-species"></span>.</p>
+                            <p><strong>Egg groups: </strong> <span id="pokemon-egg-groups"></span>.</p>
+                            <p><strong>Abilities: </strong><span id="pokemon-abilities"></span>.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <hr id="line">
+
+                <!-- Evolución -->
+                <div id="evolution" class="justify-content-center text-center">
+                    <h3>Evolution Chart</h3>
+                    <div id="evolution-chain"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS Bundle con Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JS personalizado -->
+    <script src="script.js"></script>
+</body>
+
+</html>
