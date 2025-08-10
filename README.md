@@ -1,4 +1,4 @@
-# proyecto_pokemon
+# Pokédex
 Este proyecto es una aplicación web que permite buscar y visualizar información sobre Pokémones usando la API pública [PokeAPI](https://pokeapi.co/docs/v2). Muestra información detallada de Pokémones incluyendo sus tipos, habilidades y cadenas evolutivas.
 
 
