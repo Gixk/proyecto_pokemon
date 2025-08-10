@@ -27,9 +27,9 @@ No se requiere servidor local ni instalación de dependencias.
 
 ## Estructura del proyecto
 Pokemon
---| index.html → Estructura principal de la interfaz
---| style.css → Estilos personalizados
---| script.js → Lógica y consumo de la API
+- index.html → Estructura principal de la interfaz
+- style.css → Estilos personalizados
+- script.js → Lógica y consumo de la API
 
 
 # Autor
