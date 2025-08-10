@@ -26,9 +26,10 @@ No se requiere servidor local ni instalación de dependencias.
 
 
 ## Estructura del proyecto
-<pre> ```plaintext Pokemon ┣  index.html → Estructura principal de la interfaz ┣ style.css → Estilos personalizados ┣ script.js → Lógica y consumo de la API ``` </pre>
+<pre> ```plaintext 📦 Proyecto Pokédex ┣ 📜 index.html → Estructura principal de la interfaz ┣ 📜 style.css → Estilos personalizados ┣ 📜 script.js → Lógica y consumo de la API ``` </pre>
 
 
 # Autor
 **Gicxel Pastrana Rojas**
+
 Estudiante de Informática Empresarial - Universidad de Costa Rica
