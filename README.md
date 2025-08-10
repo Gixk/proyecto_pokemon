@@ -11,8 +11,7 @@ Este proyecto es una aplicación web que permite buscar y visualizar informació
 
 ## Instalación y ejecución del proyecto
 1. Clonar el repositorio
-```bash
-git clone https://github.com/Gixk/proyecto_pokemon.git
+`git clone https://github.com/Gixk/proyecto_pokemon.git`
 
 2. Abrir el archivo index.html en cualquier navegador moderno.
 No se requiere servidor local ni instalación de dependencias.
