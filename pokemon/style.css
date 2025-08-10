@@ -3,6 +3,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+
 #pokemon-list-container {
     background-color: rgb(181, 16, 16);
     margin: 5px;
@@ -20,7 +21,7 @@ body {
 }
 
 #ul-list li {
-    background-color: rgb(194, 85, 85);
+    background-color: indianred;
 }
 
 .list-group-item:hover {
