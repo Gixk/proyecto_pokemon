@@ -5,13 +5,12 @@ body {
 
 
 #pokemon-list-container {
-    background-color: rgb(181, 16, 16);
+    background-color: #6a041a;
     margin: 5px;
-    border-right: 1px solid salmon;
 }
 
 #pokemon-list {
-    background-color: rgb(181, 16, 16);
+    background-color: #6a041a;
 }
 
 #ul-list {
@@ -21,7 +20,8 @@ body {
 }
 
 #ul-list li {
-    background-color: indianred;
+    background-color: #f25750;
+    border: 1px solid #6a041a;
 }
 
 .list-group-item:hover {
@@ -29,7 +29,7 @@ body {
 }
 
 #ul-list .list-group-item.active {
-  background-color: rgb(181, 16, 16);     /* negro */
+  background-color: #6a041a;     /* negro */
   border: none;
   color: #fff;
 }
